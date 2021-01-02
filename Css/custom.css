@@ -1,0 +1,80 @@
+@import url("Css/fonts.css");
+/*font variables*/
+:root{
+	--Coda_Caption:'Coda_Caption',cursive;
+	--Inconsolata:'Inconsolata',cursive;
+	--Lato:'Lato',cursive;
+	--Modak:'Modak',cursive;
+	--Montserrat:'Montserrat',cursive;
+	
+}
+/*  Change Font   */
+ .navbar-brand{
+    font-size:1.6rem;
+    font-weight:bold;
+	font-family:var(--Lato);
+}
+/* change color of nav-link*/
+.navbar #myMenu .custom-nav .nav-item a{
+ color:white;
+ font-size: 1rem;
+ text-shadow: black;
+ font-family:var(--Lato);
+ padding-left: 30px;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover{
+    color:red;
+    background: #fff;
+    font-size: 1.1 rem;
+    transition: 0.2s;
+   }
+   .navbar #myMenu .custom-nav .nav-item a:focus{
+    cursor: pointer;
+    
+   }
+   /*---- make header image-------*/
+   .back-image{
+       background-size:cover;
+       min-height: 90vh;
+       background-position: center center;
+       margin-top: 4rem;
+       border-radius: 0em;
+   }
+   /*     heading sub title     */
+   .font-italic{
+       font-size: 24px;
+   }
+   /*my heading*/
+   .myheading{
+       margin-top: 50px;
+       margin-left: 50px;
+   }
+   .fi-color{
+       color:#dc3545;
+   }
+   a{
+       color:black;
+   }
+   .active{
+       color:white;
+       background-color: #dc3545;
+   }
+   a:hover{
+       color:#f26571;
+   }
+   .bg-color{
+       background-color: blue;
+   }
+   span{
+       color:red;
+   }
+   /* media query*/
+  @media only screen and (max-width: 600px){
+    .my-head{
+        margin-top: 350px;
+        text-align: center;
+        transition: 0.3s;
+    }
+    
+  }
+  
